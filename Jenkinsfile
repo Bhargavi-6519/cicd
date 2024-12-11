@@ -19,5 +19,11 @@ pipeline {
                 echo 'Deploying the application'
             }
         }
+
+        stage('Hello Docker') {  
+            steps {
+                echo 'hello docker'
+            }
+        }
     }
 }
